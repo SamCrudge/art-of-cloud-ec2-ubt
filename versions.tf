@@ -1,11 +1,4 @@
 terraform {
-  // Using Terraform Cloud
-  backend "remote" {
-    organization = "artofcloud"
-    workspaces {
-      name = "art-of-cloud"
-    }
-  }
   // Specificing provider to ensure no provider breaking changes.
   required_providers {
     aws = {
