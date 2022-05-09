@@ -29,9 +29,9 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_instance_size"></a> [instance\_size](#input\_instance\_size) | Required instance size | `string` | `"t3.micro"` | yes |
-| <a name="input_new_s3_bucket_name"></a> [new\_s3\_bucket\_name](#input\_new\_s3\_bucket\_name) | S3 bucket name | `string` | `"i need a name"` | yes |
-| <a name="input_s3_bucket_acl"></a> [s3\_bucket\_acl](#input\_s3\_bucket\_acl) | S3 bucket access control list type | `string` | `"private"` | yes |
+| <a name="input_instance_size"></a> [instance\_size](#input\_instance\_size) | Instance size | `string` | `"t3.micro"` | no |
+| <a name="input_new_s3_bucket_name"></a> [new\_s3\_bucket\_name](#input\_new\_s3\_bucket\_name) | S3 bucket name | `string` | `"i need a name"` | no |
+| <a name="input_s3_bucket_acl"></a> [s3\_bucket\_acl](#input\_s3\_bucket\_acl) | S3 bucket ACL | `string` | `"private"` | no |
 
 ## Outputs
 
